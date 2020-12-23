@@ -2,7 +2,7 @@
 
 cd
 mdkir bash
-echo 'git add\ngit commit -m "$1"\ngit push' > bash/push 
+echo 'git add\ngit commit -m "$1"\ngit push' > ~/bash/push 
 export PATH="$HOME/bash:$PATH"
 cd bash
 chmod +x push
