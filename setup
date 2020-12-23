@@ -1,0 +1,22 @@
+#!/bin/bash
+
+cd
+mdkir bash
+echo 'git add\ngit commit -m "$1"\ngit push' > bash/push 
+export PATH="$HOME/bash:$PATH"
+cd bash
+chmod +x push
+echo "TESTING PUSH"
+push "int"
+cd 
+sudo apt-get install git
+echo "GIT INSTALLED"
+sudo apt install tilix
+echo "TILIX INSTALLED"
+sudo apt install ffmpeg
+echo "FFMPEG INSTALLED"
+pip3 install spot-dl
+echo "SPOT-DL INSTALLED"
+echo "syntax on\nset wrapmargin=8\nset number" > ~/.vimrc
+echo "VIMRC INITIALIZED"
+echo "THATS IT FOR NOW"
