@@ -1,5 +1,7 @@
 #!/bin/bash
-
+cd deb-files
+sudo dpkg -i code_1.52.1-1608136922_amd64.deb
+echo "Installing vsc. The deb-files directory also contains a file for teams,to install the command is sudo dpkg teams_1.3.00.30857_amd64.deb" 
 cd
 mdkir bash
 echo 'git add\ngit commit -m "$1"\ngit push' > ~/bash/push 
