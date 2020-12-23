@@ -11,6 +11,8 @@ push "int"
 cd 
 sudo apt-get install git
 echo "GIT INSTALLED"
+git config --global user.name "lolmokha"
+git config --global user.email "mkhan0138@gmail.com"
 sudo apt install tilix
 echo "TILIX INSTALLED"
 sudo apt install ffmpeg
