@@ -5,7 +5,7 @@ echo "Installing vsc. The deb-files directory also contains a file for teams,to 
 cd
 mdkir bash
 echo 'git add\ngit commit -m "$1"\ngit push' > ~/bash/push 
-export PATH="$HOME/bash:$PATH"
+echo export PATH="$HOME/bash:$PATH"  > ~/.zshrc
 cd bash
 chmod +x push
 echo "TESTING PUSH"
